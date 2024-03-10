@@ -16,7 +16,17 @@ header{
     align-items: center;
     align-content: center; 
     flex-direction: row;
+    padding: 20px;
 }
+
+.contenedor_lista>ul>li>button{
+margin: 10px;
+padding: 10px 20px; /* Espaciado interno */
+border: none; /* Sin borde */
+cursor: pointer; /* Cursor al pasar sobre el botón */
+border-radius: 5px; /* Borde redondeado */
+    font-size: 16px; /* Tamaño de la fuente */
+} 
 
 .contenedor_principal {
     display: flex;
@@ -56,4 +66,20 @@ header{
 .modoNocheHeader{
     background-color: #191e2b;
     color: #ffffff;
+}
+
+/*Modal*/
+.modal{
+    width: 200px;
+    height: 500px;;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    text-align: center;
+}
+
+.modal > i{
+    float: right; 
 }
