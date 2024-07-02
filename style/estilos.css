@@ -60,12 +60,12 @@ border-radius: 5px; /* Borde redondeado */
 
 .modoNocheContenedor{
     background-color: #393e49;
-    color: #ffffff;
+    color: #121212; /*cuando se activa cambia de color el txt del div*/
 }
 
 .modoNocheHeader{
     background-color: #191e2b;
-    color: #ffffff;
+    color: #f8f8f8;
 }
 
 /*Modal*/

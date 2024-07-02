@@ -13,6 +13,7 @@ btnNoche.addEventListener('click', function () {
 
     contenedor.classList.toggle('modoNocheContenedor');
     header.classList.toggle('modoNocheHeader');
+
     let modo = header.classList.contains('modoNocheHeader') ? 'Modo Claro' : 'Modo Oscuro';
     txtModo.textContent = modo;
 
@@ -26,5 +27,3 @@ btnTxt.addEventListener('click', function () {
 btnCerrar.addEventListener('click', function () {
     modal.style.display = 'none';
 });
-
-console.log('hola en la consola')
