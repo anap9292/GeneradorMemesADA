@@ -68,7 +68,7 @@ border-radius: 5px; /* Borde redondeado */
     color: #f8f8f8;
 }
 
-/*Modal*/
+/*Modal Texto*/
 .modal{
     width: 200px;
     height: 500px;;
@@ -82,4 +82,31 @@ border-radius: 5px; /* Borde redondeado */
 
 .modal > i{
     float: right; 
+}
+
+/*Modal Imagen*/
+.modalImg{
+    width: 200px;
+    height: 500px;;
+    background-color: rgb(0, 42, 255);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    text-align: center;
+}
+
+.modalImg > i{
+    float: right; 
+}
+
+/*Box imagen*/
+#boxImagen {
+    max-width: 100%; /* Ajusta el ancho máximo del div contenedor */
+    overflow: hidden; 
+}
+
+#boxImagen img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: auto;
 }
